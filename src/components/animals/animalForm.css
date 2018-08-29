@@ -1,0 +1,15 @@
+#add-animal-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 2em auto;
+
+}
+
+#add-animal-form input {
+    width: 60%;
+}
+
+#add-animal-form select {
+    width: 20%;
+}

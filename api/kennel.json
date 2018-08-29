@@ -1,0 +1,152 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jessica Younker",
+      "gender": "Female"
+    },
+    {
+      "id": 2,
+      "name": "Jordan Nelson",
+      "gender": "Male"
+    },
+    {
+      "id": 3,
+      "name": "Zoe LeBlanc",
+      "gender": "Female"
+    },
+    {
+      "id": 4,
+      "name": "Blaise Roberts",
+      "gender": "Male"
+    },
+    {
+      "name": "JSON Derulo",
+      "id": 5,
+      "gender": "Male"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "North Nashville",
+      "address": "360 Circle Way"
+    },
+    {
+      "id": 2,
+      "name": "South Nashville",
+      "address": "10101 Binary Court"
+    },
+    {
+      "name": "East Nasty",
+      "address": "1337 Obscure Hipster Hwy",
+      "id": 3
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Lumos",
+      "employee": 3,
+      "type": "Cat"
+    },
+    {
+      "id": 2,
+      "name": "Stryder",
+      "employee": 3,
+      "type": "Cat"
+    },
+    {
+      "id": 3,
+      "name": "Bella",
+      "employee": 3,
+      "type": "Dog"
+    },
+    {
+      "id": 4,
+      "name": "Sgt. Woofers",
+      "employee": 3,
+      "type": "Dog"
+    },
+    {
+      "id": 5,
+      "name": "Grumpy Cat",
+      "employee": 3,
+      "type": "Cat"
+    },
+    {
+      "id": 6,
+      "name": "Arcanine",
+      "employee": 3,
+      "type": "Dog"
+    },
+    {
+      "name": "snuffles",
+      "type": "Cat",
+      "employee": 3,
+      "id": 7
+    },
+    {
+      "name": "ruffles",
+      "type": "Dog",
+      "employee": 3,
+      "id": 8
+    },
+    {
+      "name": "whiskers",
+      "type": "Cat",
+      "employee": 3,
+      "id": 9
+    },
+    {
+      "name": "rufus",
+      "type": "Dog",
+      "employee": 3,
+      "id": 10
+    },
+    {
+      "name": "Goofy 2",
+      "type": "Cat",
+      "employee": 5,
+      "id": 11
+    },
+    {
+      "name": "Dr. MeowyFace",
+      "type": "Cat",
+      "employee": 5,
+      "id": 12
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Harry Potter",
+      "animalId": 1
+    },
+    {
+      "id": 2,
+      "name": "Hermione Granger",
+      "animalId": 2
+    },
+    {
+      "id": 3,
+      "name": "Valerie Bruner",
+      "animalId": 3
+    },
+    {
+      "id": 4,
+      "name": "Ronald Weasley",
+      "animalId": 4
+    },
+    {
+      "id": 5,
+      "name": "Kayla Reid",
+      "animalId": 5
+    },
+    {
+      "id": 6,
+      "name": "Ricky Bruner",
+      "animalId": 6
+    }
+  ]
+}

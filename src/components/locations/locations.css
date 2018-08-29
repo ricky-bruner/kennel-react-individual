@@ -1,0 +1,19 @@
+.locations {
+    display: flex;
+    justify-content: space-around;
+}
+
+.location-ul {
+    background: linear-gradient(to bottom, #fc4a1a, #f7b733);
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.6);
+}
+
+.location-ul h4 {
+    text-align: center;
+}
+
+.location-ul p {
+    margin: .2em .2em;
+}
