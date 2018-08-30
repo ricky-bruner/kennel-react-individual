@@ -13,7 +13,6 @@ export default class AnimalEdit extends Component {
         this.setState(stateToChange)
     }
     
-
     saveAnimal = () => {
         const editedAnimal = {
             name: this.state.name,
@@ -24,6 +23,7 @@ export default class AnimalEdit extends Component {
             this.props.history.push("/animals")
         )
     }
+    
     componentDidMount(){
         const animal = this.props.animals.find(a => a.id === parseInt(this.props.match.params.animalId, 0)) || {}
         const employee = this.props.employees.find(e => e.id === animal.employee)
@@ -35,6 +35,7 @@ export default class AnimalEdit extends Component {
             employee: employee.id
         })
     }
+
     render(){
         return (
             <div id="add-animal-form">

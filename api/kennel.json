@@ -3,7 +3,9 @@
     {
       "id": 1,
       "name": "Jessica Younker",
-      "gender": "Female"
+      "gender": "Female",
+      "detail": false,
+      "edit": false
     },
     {
       "id": 2,
@@ -18,12 +20,30 @@
     {
       "id": 4,
       "name": "Blaise Roberts",
-      "gender": "Male"
+      "gender": "Male",
+      "detail": false,
+      "edit": false
     },
     {
       "name": "JSON Derulo",
       "id": 5,
-      "gender": "Male"
+      "gender": "Male",
+      "detail": false,
+      "edit": false
+    },
+    {
+      "name": "Kayla Reid",
+      "gender": "Female",
+      "id": 6,
+      "detail": false,
+      "edit": false
+    },
+    {
+      "name": "Ricky Bruner",
+      "gender": "Male",
+      "id": 7,
+      "detail": false,
+      "edit": false
     }
   ],
   "locations": [
@@ -53,7 +73,7 @@
     {
       "id": 2,
       "name": "Stryder",
-      "employee": 3,
+      "employee": 6,
       "type": "Cat"
     },
     {
@@ -87,9 +107,9 @@
       "id": 7
     },
     {
-      "name": "ruffles",
+      "name": "King Bork",
       "type": "Dog",
-      "employee": 3,
+      "employee": 2,
       "id": 8
     },
     {
@@ -99,20 +119,20 @@
       "id": 9
     },
     {
-      "name": "rufus",
+      "name": "Floofing Woofer",
       "type": "Dog",
-      "employee": 3,
+      "employee": 6,
       "id": 10
     },
     {
-      "name": "Goofy 2",
+      "name": "Meowserson McFluff III",
       "type": "Cat",
-      "employee": 5,
+      "employee": 3,
       "id": 11
     },
     {
-      "name": "Dr. MeowyFace",
-      "type": "Cat",
+      "name": "Dr. WooferFace",
+      "type": "Dog",
       "employee": 5,
       "id": 12
     }

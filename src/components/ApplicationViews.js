@@ -168,6 +168,14 @@ export default class ApplicationViews extends Component {
             this.setState({ animals: animals })
             )
     }
+    editEmployee = (id, object) => {
+        return DataManager.edit("employees", id, object)
+        .then(() => 
+            DataManager.getAll("employees"))
+        .then(employees =>
+            this.setState({ employees: employees })
+            )
+    }
 
     render() {
         return (
@@ -211,17 +219,21 @@ export default class ApplicationViews extends Component {
                                     employees={this.state.employees} />
                     }} />
                     <Route exact path="/employees" render={(props) => {
-                        return <EmployeeList 
+                        return <EmployeeList {...props}
                                     fireEmployee={this.fireEmployee}
-                                    employees={this.state.employees} />
+                                    employees={this.state.employees}
+                                    editEmployee={this.editEmployee} />
                     }} />
                     <Route exact path="/employees/hire" render={(props) => {
                         return <EmployeeForm {...props} 
                                     addEmployee={this.addEmployee}
-                                    employees={this.state.employees} />
+                                    employees={this.state.employees}
+                                    editEmployee={this.editEmployee}
+                                    fireEmployee={this.fireEmployee} />
                     }} />
                     <Route exact path="/employees/:employeeId(\d+)" render={(props) => {
                         return <EmployeeDetail {...props} 
+                                    editEmployee={this.editEmployee}
                                     fireEmployee={this.fireEmployee}
                                     employees={this.state.employees} />
                     }} />
